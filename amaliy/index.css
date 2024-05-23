@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.navbar img{
+    transform: translateX(-130px);
+    font-size: 5px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    font-size: 40px;
+    width: 100%;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.header img{
+    width: 1000px;
+    transform: translateX(120px);
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.card{
+    border-radius: none;
+}
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 400px;
+    background: green;
+}
+.section2 button{
+    transform: translateX(550px)
+    
+}
+.section2_text{
+    transform: translateX(350px);
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.section3{
+    margin-top: 50px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transform: translateX(350px);
+    color: rgb(4, 112, 112);
+}
+.section4{
+    font-family: sans-serif;
+    width: 500px;
+    height: 500px;
+    font-size: 20px;
+}
+.section4_box{
+    margin-top: -100px;
+    width: 800px;
+    transform: translateX(200px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background: linear-gradient(180deg, #c4c4c4 0%, #F7F9FD 100%);
+
+}
+.section4_box1{
+    margin-top: 40px;
+    width: 800px;
+    transform: translateX(200px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background: linear-gradient(180deg, #c4c4c4 0%, #F7F9FD 100%);
+}
+.section5{
+    width: 500px;
+    height: 500px;
+    transform: translate(750px, 450px);
+}
+.section5 button{
+    width: 200px;
+    height: 40px;
+    transform: translateX(-300px);
+}
